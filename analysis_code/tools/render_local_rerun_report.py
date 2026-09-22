@@ -11,7 +11,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 ROOT = Path(".")
-OUTPUT_DIR = Path("/private/tmp/glaucoma_rerun_report")
+OUTPUT_DIR = Path("outputs/local_rerun_report")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

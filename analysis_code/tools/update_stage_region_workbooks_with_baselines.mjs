@@ -5,7 +5,11 @@ import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
 const projectDir = ".";
 const sourceDir = path.join(projectDir, "outputs/grape_bern_stage_region_20260831");
 const outputDir = path.join(projectDir, "outputs/grape_bern_stage_region_baselines_20260901");
-const baselinePath = "/private/tmp/baseline_metrics_for_workbooks.json";
+const baselinePath = process.env.BASELINE_METRICS_PATH ?? path.join(
+  projectDir,
+  "outputs",
+  "baseline_metrics_for_workbooks.json",
+);
 
 const teal = "#0F766E";
 const darkTeal = "#115E59";

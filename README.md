@@ -10,7 +10,7 @@ Can longitudinal visual-field (VF) history predict the next available examinatio
 
 - `figures/architecture/` — schematics of the longitudinal LSTM baselines, six-region VF-only Transformer, tokenisation, and optional-modality pathways.
 - `figures/results/` — aggregate, non-identifying result visualisations used to communicate the study design and findings.
-- `analysis_code/` — selected notebooks and scripts documenting preprocessing, baseline modelling, longitudinal modelling, transfer learning, diagnostics, and reporting.
+- `analysis_code/` — selected notebooks and scripts documenting preprocessing, baseline modelling, longitudinal modelling, transfer learning, diagnostics, and reporting; start with `analysis_code/README.md` for a guided reading order and terminology.
 - `RESULTS.md` — a concise summary of the main evaluation protocol and findings.
 - `DATA_AVAILABILITY.md` — the data-sharing and privacy boundary for this public release.
 

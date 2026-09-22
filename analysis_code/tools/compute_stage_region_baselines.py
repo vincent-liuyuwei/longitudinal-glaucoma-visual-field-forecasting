@@ -168,7 +168,8 @@ def main() -> None:
             **_evaluate(grape_data, grape_strata, "GRAPE"),
         },
     }
-    out = Path("/private/tmp/baseline_metrics_for_workbooks.json")
+    out = Path("outputs/baseline_metrics_for_workbooks.json")
+    out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(payload, indent=2) + "\n")
     print(out)
     print(json.dumps(payload["test_counts"], indent=2))
