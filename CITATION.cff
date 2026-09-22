@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use the public research artefacts, please cite the associated master's thesis."
+title: "Longitudinal Glaucoma Visual-Field Forecasting"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Yuwei
+    affiliation: University of Bern
+abstract: "Public research artefacts accompanying a master's thesis on longitudinal visual-field forecasting in glaucoma."
+keywords:
+  - glaucoma
+  - visual-field forecasting
+  - longitudinal deep learning
+  - Transformer
+  - LSTM
+  - multimodal learning
+repository-code: "https://github.com/vincent-liuyuwei/glaucoma-thesis-2026"

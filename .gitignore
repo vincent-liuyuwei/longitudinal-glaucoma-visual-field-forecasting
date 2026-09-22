@@ -1,0 +1,17 @@
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.py[cod]
+*.npy
+*.npz
+*.pth
+*.pt
+*.ckpt
+*.joblib
+*.pkl
+*.xlsx
+*.csv
+cache/
+checkpoints/
+models/*
+!models/README.md
